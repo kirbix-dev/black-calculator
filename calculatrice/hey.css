@@ -1,0 +1,68 @@
+         /*css by kirbix 
+        - link: https://codepen.io/kirbix 
+        - link: https://github.com/kirbix-dev*/
+        body {
+            background-color: #000;
+        }
+        .calculatrice {
+            height: 500px;
+            width: 400px;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0px 0px 4px 4px #73ff73bb;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .zone-calculatrice {
+            width: calc(4 * 60px);
+            height: 60px;
+            padding: 10px;
+            background-color: #222;
+            color: #fff;
+            text-align: right;
+            font-size: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            border-radius: 15px;
+            margin-bottom: 10px;
+            box-sizing: 0px 0px 4px 4px;
+        }
+        .rangee-button {
+            display: flex;
+            justify-content: center;
+            margin-top: 5px;
+            text-align: left;
+        }
+        .button-cal {
+            color: #73ff73;
+        }
+        button {
+            width: 60px;
+            height: 60px;
+            background-color: #444;
+            color: #fff;
+            border: none;
+            font-size: 24px;
+            margin-right: 5px;
+            cursor: pointer;
+            text-align: center;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #555;
+        }
+
+        h1 {
+            color: #ffffff;
+            font-family: "Anton", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 25px;
+        }
